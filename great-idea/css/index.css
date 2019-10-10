@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
  body {
-	border: 1px solid;
 	margin: 30px;
 } 
 
@@ -126,5 +125,9 @@ nav a {
 	/* width: 70%; */
 	border: 1px solid;
 
+}
+
+.bottom-paragraph div {
+	display: 1px solid red;
 }
 
