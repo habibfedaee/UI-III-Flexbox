@@ -151,4 +151,66 @@ footer {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+/* service.html starts here */
+
+.services-header-img {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.services {
+	border-bottom: 1px solid;
+	margin-bottom: 40px;
+}
+
+.services h1 {
+	font-size: 25px;
+}
+
+div p {
+	margin-bottom: 20px;
+}
+
+.paragraph {
+	display: flex;
+	
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.paragraph div {
+	width: 47%;
+	background-color: lightgray;
+	padding: 20px;
+	border: 1px solid;
+	margin-bottom: 45px;
+}
+
+.paragraph div a {
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.bottom-content {
+	display: flex;
+	border-top: 1px solid;
+}
+
+.bottom-content div h1 {
+	margin-top: 40px;
+}
+
+.bottom-content .services-info-img {
+	margin-top: 40px;
+}
+
+.bullets li{
+	list-style-type: square;
+	margin-left: 20px;
+	padding: 5px;
 }
