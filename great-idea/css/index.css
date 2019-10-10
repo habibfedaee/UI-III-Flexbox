@@ -65,136 +65,66 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+ body {
+	border: 1px solid;
+	margin: 30px;
+} 
+
 nav {
-	padding: 5px;
-	width: 100%;
-	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;	
 }
-.navigation a {
-	border: 1px solid lightgray;	
-	border-radius: 10px;
-	padding: 10px;
-	margin: 60px;
-	margin-right: 30px;
-	vertical-align: bottom;
-	text-decoration: none;
+
+nav a {
+	display: flex;
+	align-items: center;
+	align-content: space-between;
 	color: gray;
 }
 
-.navigation a:hover {
-	background-color: blueviolet;
-	color: white;
+.top-middle {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+	justify-content: space-around;
 }
 
-.navigation {
-	display: inline-block;
-	height: 38px;
-	vertical-align: bottom;
+.top-middle div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.logo {
-	margin-left: 200px;
-	padding: 2px;
-}
-
-.wali {
+.top-middle div h1 {
+	display: flex;
+	font-size: 70px;
+	width: 100%;
 	text-align: center;
-	margin: 0 auto;
 }
 
-header .title {
-	display: inline-block;
+.top-middle div a {
+	border: 1px solid;
+	padding: 7px;
 }
 
-.title h1 {
-	font-size: 90px;
-	margin-bottom: 50px;
-
-}
-
-.title button {
-	border-radius: 10px;
-	border: 1px solid lightgray;
-	padding: 10px;
-	margin: 20px;
-}
-
-header .img	{
-	display: inline-block;
-	margin: 70px;
-	
-}
-
-
-header {
-	border-bottom: 1px solid black;
-	margin: 2px;
-}
-
-.top-content {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	width: 100%;
-	margin-left: 450px;
-}
-
-.p1 {
-	display: inline-block;
-	width: 23%;
-	
-	
-}
-
-h2 {
-	vertical-align: bottom;
-	width: 15%;
-	/* margin-left: 10px; */
-	margin-bottom: 10px;
-	margin-top: 10px;
-	display: inline-block;
-}
-
-.p {
-	/* margin-left: 10px; */
-	
-	width: 100%;
+.top-paragraph {
+	display: flex;
+	border: 1px solid;
+	justify-content: space-between;
 }
 
 .middle-img {
-	
-	margin-left: 450px;
-}
-
-.p2 {
-	
-	display: inline-block;
-	width: 15%;
-}
-
-.bottom-content {
-	margin-top: 20px;
-	margin-bottom: 20px;
 	width: 100%;
-	margin-left: 450px;
 }
 
-.contact {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	margin-left: 450px;
+.bottom-paragraph {
+	display: flex;
+	justify-content: space-between;
+	/* width: 70%; */
+	border: 1px solid;
+
 }
 
-.contact p {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-
-
-footer {
-	
-	margin: 50px;
-	width: 100%;
-	text-align: center;
-}
